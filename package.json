@@ -1,0 +1,29 @@
+{
+  "name": "h-trial-part",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.15.18",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.27.0",
+    "eslint-config-next": "^15.3.2",
+    "hls.js": "^1.6.2",
+    "next": "^15.3.2",
+    "postcss": "^8.5.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-player": "^2.16.0",
+    "tailwindcss": "^4.1.7",
+    "tailwindcss-aspect-ratio": "^3.0.0",
+    "typescript": "^5.8.3"
+  }
+}
