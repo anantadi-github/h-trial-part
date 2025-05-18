@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import VideoPlayer from './VideoPlayer';
-import Timeline from './Timeline';
+import RemotionVideoPlayer from './RemotionVideoPlayer';
+import RemotionTimeline from './RemotionTimeline';
 import CropControls from './CropControls';
 import ClipSection from './ClipSection';
 import ExportSection from './ExportSection';
@@ -112,7 +112,7 @@ const VideoEditor: React.FC<VideoEditorProps> = ({ videoSrc }) => {
     <div className="w-full max-w-6xl mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         <div className="lg:col-span-2">
-          <VideoPlayer
+          <RemotionVideoPlayer
             src={videoSrc}
             isPlaying={isPlaying}
             onProgress={handleProgress}
@@ -120,7 +120,7 @@ const VideoEditor: React.FC<VideoEditorProps> = ({ videoSrc }) => {
             cropSettings={cropSettings}
           />
           
-          <Timeline
+          <RemotionTimeline
             duration={duration}
             currentTime={currentTime}
             onSeek={handleSeek}

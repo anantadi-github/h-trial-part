@@ -14,6 +14,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@remotion/cli": "^4.0.305",
+    "@remotion/player": "^4.0.305",
     "@tailwindcss/postcss": "^4.1.7",
     "@types/node": "^22.15.18",
     "@types/react": "^19.1.4",
@@ -27,6 +29,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-player": "^2.16.0",
+    "remotion": "^4.0.305",
     "tailwindcss": "^4.1.7",
     "tailwindcss-aspect-ratio": "^3.0.0",
     "typescript": "^5.8.3"
